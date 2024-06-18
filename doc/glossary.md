@@ -10,7 +10,7 @@
 ### entity
 an entity is simply just anything that's fully capable of "thought" and/or action, so anything that's alive really. this includes the player, mobs, collectables, lifts (moving platforms), etc.
 
-## tiles
+## technical
 
 ### quarter tile
 a quarter tile is simply 1/4th of a full tile.
