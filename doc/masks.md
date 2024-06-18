@@ -56,7 +56,7 @@ character index  | unused | description
 #8               | no     | determines the tile's brush category for the level editor[^5]
 #9               | no     | if this character is the letter H, tint the tile's hue by the level's hue
 
-# footnotes
+### footnotes
 [^1]: most entities will be capable with passing the [solid check.](./glossary.md#solid-check) however, if an entity has a solid threshold greater than the number, it'll stopping treating the corner as solid ground, and likely pass through it. we may pretend the player has a solid threshold of four, though the player doesn't really use a regular solid check.
 
 [^2]: entities other than the player can't be killed with spikes, but they may treat them as solid/non-solid ground instead
