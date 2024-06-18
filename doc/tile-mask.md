@@ -4,7 +4,6 @@
 -->
 
 # tile mask
-
 a **tile mask** is a short string of characters that define a 2x2 shape, made up of 4 [quarter tiles](./glossary.md#quarter-tile) grouped together, to be used when detecting [entity](./glossary.md#entity) collisions with a tile. it can also define other properties about the tile, including triggering events upon player collision. every tile mask can be found in the global "MASK" list, with each item in the list having a corresponding tile ID that matches its index.
 
 as an example of a tile mask, we'll use a basic ground tile that looks like this:

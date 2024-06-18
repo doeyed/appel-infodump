@@ -1,1 +1,2 @@
-appel technical research/info dump
+# appel technical info dump
+my attempts to get a better understanding of the inner-workings of appel
