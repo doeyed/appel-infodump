@@ -19,7 +19,7 @@ this specific tile (with an ID of 2) in the game has the mask "`5555   1h`," so 
 - it'll definitely be visible in-game
     - the sixth character being a single space (` `) will make it visible
 - it'll appear in the first brush category in the level editor
-    - the eigth character is just the number one, as this tile is supposed to go in the first brush category
+    - the eighth character is just the number one, as this tile is supposed to go in the first brush category
         - the same rule applies for any brush category
         - if you didn't want a tile to be placeable in the level editor, you may use any character that isn't a number (e.g. the letter X being used for tiles with the "BIG" costume)
 - it'll have its hue tinted to match the level's hue
