@@ -46,15 +46,15 @@ for the first four rows, it's safe to assume that most tiles will have these all
 
 character index  | unused | description
 ---------------- | ------ |-----------
-#1               | no     | targets the bottom-left quarter tile
-#2               | no     | targets the top-left quarter tile
-#3               | no     | targets the top-right quarter tile
-#4               | no     | targets the bottom-right quarter tile
-#5               | no     | determines the type (character #5 + character #6) of the dynamic tile to spawn in, if this character isn't a space (` `)
-#6               | no     | determines the tile's visiblity. if the character is a space (` `), it'll be visible
+#1               | no     | the type of the bottom-left quarter tile (solid, spikey, etc.)
+#2               | no     | the type of the top-left quarter tile
+#3               | no     | the type of the top-right quarter tile
+#4               | no     | the type of the bottom-right quarter tile
+#5               | no     | the type (character #5 + character #6) of the entity to spawn in, if character #5 isn't a space (` `)
+#6               | no     | the tile's visiblity. if character #6 is a space (` `), it'll be visible. otherwise, it'll be invisible
 #7               | yes    | currently unknown, as no tile masks make use of it
-#8               | no     | determines the tile's brush category for the level editor[^5]
-#9               | no     | if this character is the letter H, tint the tile's hue by the level's hue
+#8               | no     | the tile's brush category for the level editor
+#9               | no     | whenever or not to tint the hue of the full tile by the level's hue. if you wanted this, you'd put the letter H in this spot
 
 ### footnotes
 [^1]: most entities will be capable with passing the [solid check.](./glossary.md#solid-check) however, if an entity has a solid threshold greater than the number, it'll stopping treating the quarter tile as solid ground, and likely pass through it. we may pretend the player has a solid threshold of four, though the player doesn't really use a regular solid check.
@@ -64,5 +64,3 @@ character index  | unused | description
 [^3]: fun fact: normally, the spikey quarter tiles of a full spike tile aren't actually solid, but mobs (and other entities) can choose to ignore this, and treat it as regular solid ground
 
 [^4]: this doesn't affect activation tiles, as their behavior is hardcoded into the "Player" sprite, and aren't determined by their tile masks. something similar is also in place for collectibles, checkpoints, flag poles, etc. (flag poles, checkpoints, yellow apples, and such are valid tiles, but collectibles, like red keys/apples, are technically entities)
-
-[^5]: using characters that aren't numbers don't count as a valid brush category, and will *not* make the tile appear in the level editor

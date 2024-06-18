@@ -8,12 +8,12 @@
 ## gameplay
 
 ### entity
-an entity is simply just anything that's fully capable of "thought" and performing actions, so anything that's alive really. this includes the player, mobs, and dynamic tiles (like moving platforms)
+an entity is simply just anything that's fully capable of "thought" and/or action, so anything that's alive really. this includes the player, mobs, collectables, lifts (moving platforms), etc.
 
 ## tiles
 
 ### quarter tile
-a quarter tile is simply 1/4th of a full tile
+a quarter tile is simply 1/4th of a full tile.
 
 ### solid check
 the "solid check" is a simple check that occurs whenever an [entity](#entity) wants to know if the [quarter tile](#quarter-tile) they're currently on, is solid or not. if it's not solid, they'll likely fall through it.
