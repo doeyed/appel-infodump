@@ -60,7 +60,7 @@ character index  | unused | description
 #6               | no     | the tile's visiblity. if character #6 is a space (` `), it'll be visible. otherwise, it'll be invisible
 #7               | yes    | currently unknown, as no tile masks make use of it
 #8               | no     | the tile's brush category for the level editor
-#9               | no     | whenever or not to tint the hue of the full tile by the level's hue. if you wanted this, you'd put the letter H in this spot
+#9               | no     | whenever or not to tint the hue of the full tile by the level's hue (hue #1, not hue #2). if you wanted this, you'd put the letter H in this spot
 
 ### footnotes
 [^1]: most entities will be capable with passing the solid check. however, if an entity has a solid threshold greater than `n`, it'll stopping treating the quarter tile as solid ground, and likely pass through it. we may pretend the player has a solid threshold of four, though the player doesn't really use a regular solid check.
