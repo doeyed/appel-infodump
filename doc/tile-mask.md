@@ -8,7 +8,7 @@ a **tile mask** is a short string of characters that define a 2x2 shape, made up
 
 as an example of a tile mask, we'll use a basic ground tile that looks like this:
 
-![a basic green ground tile](../res/green-8.svg)
+![a basic green ground tile](../res/ground.svg)
 
 this specific tile (with an ID of 2) in the game has the mask "`5555   1h`," so we'll begin to note down a few interesting things about this tile, such as:
 
