@@ -1,0 +1,176 @@
+Foreground green-1111
+Editor tile2
+Active costume1
+cloud scores costume1
+StatsLives game-base
+StatsLives pause
+StatsLives a
+StatsLives a0
+StatsLives a4
+StatsLives a3
+StatsLives a9
+StatsLives a
+StatsLives a1
+Wipe Level 12
+StatsLives a0
+StatsLives a
+font h
+menu Text 1
+in-game menu:
+in-game menu: editor help
+in-game menu: EDIT - NEW
+in-game menu: EDIT - NEW
+in-game menu: EDIT - LOAD
+in-game menu: EDIT - SAVE
+in-game menu: EDIT - CLOSE
+in-game menu: EDIT - MAIN MENU
+in-game menu: EDIT - PLAY
+Mob - Eye: blank
+Float Apple: blank
+Collect key1
+Stencil Stand
+Foreground blank
+Foreground blank
+Foreground blank
+Foreground blank
+Foreground blank
+Foreground blank
+Foreground blank
+Foreground blank
+Foreground blank
+Foreground blank
+Foreground blank
+Foreground blank
+Foreground blank
+Foreground blank
+Foreground blank
+Foreground blank
+Foreground blank
+Foreground blank
+Foreground blank
+Foreground blank
+Foreground blank
+Foreground blank
+Foreground blank
+Foreground blank
+Foreground blank
+Foreground blank
+Foreground blank
+Foreground green-1111
+Foreground blank
+Foreground blank
+Foreground blank
+Foreground green-1111
+Foreground spike-0099
+Foreground spike-2
+Foreground spike-2
+Foreground green-1111
+Foreground green-1111
+Foreground green-1000
+Foreground blank
+Foreground blank
+Foreground spike-0099
+Foreground green-1111
+Foreground blank
+Foreground blank
+Foreground green-1111
+Foreground green-1111
+Foreground blank
+Foreground blank
+Foreground blank
+Foreground Apple
+Foreground checkpoint-9
+Foreground blank
+Foreground green-3
+Foreground _Mob A
+Foreground player
+Foreground blank
+Foreground blank
+Foreground blank
+Foreground blank
+Foreground blank
+Foreground blank
+Foreground blank
+Foreground blank
+Player Stand
+Boss1 spider squish
+Particles checkpoint-4
+Dynamic green-1100
+Mob blank
+Background blank
+Background green-2
+Background blank
+Background blank
+Background blank
+Background blank
+Background blank
+Background blank
+Background blank
+Background blank
+Background player
+Background Mob A
+Background Stopper
+Background blank
+Background flag
+Background Apple
+Background blank
+Background blank
+Background blank
+Background green-2
+Background green-2
+Background blank
+Background blank
+Background green-2
+Background Spikes3
+Background blank
+Background blank
+Background green-0011
+Background green-2
+Background green-2
+Background .spike1
+Background .spike1
+Background Spikes3
+Background green-2
+Background blank
+Background blank
+Background blank
+Background green-2
+Background blank
+Background blank
+Background blank
+Background blank
+Background blank
+Background blank
+Background blank
+Background blank
+Background blank
+Background blank
+Background blank
+Background blank
+Background blank
+Background blank
+Background blank
+Background blank
+Background blank
+Background blank
+Background blank
+Background blank
+Background blank
+Background blank
+Background blank
+Background blank
+Background blank
+Background blank
+Decoration Title
+Blank costume1
+Levels costume1
+Wallpaper Tiles: Sky-01 copy
+Wallpaper Tiles: Sky-01 copy
+Wallpaper Tiles: Sky-01 copy
+Wallpaper Tiles: Sky-01 copy
+Wallpaper Tiles: Sky-01 copy
+Wallpaper Tiles: Sky-01 copy
+Wallpaper Tiles: Sky-01 copy
+Wallpaper Tiles: Sky-01 copy
+Wallpaper Tiles: Sky-01 copy
+wallpaper wallpaper-2
