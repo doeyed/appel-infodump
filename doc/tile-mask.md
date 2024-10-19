@@ -14,7 +14,7 @@ this specific tile (with an ID of 2) in the game has the mask "`5555   1h`," so 
 
 - it's entirely solid
     - the first four characters being all fives will make each quarter tile solid for a player, making the whole tile solid as well
-        - for more information, take a look at  the [character index table](#characters)
+        - for more information, take a look at  the [character index table](#character-indexes)
 - it'll definitely be visible in-game
     - the sixth character being a single space (` `) will make it visible
 - it'll appear in the first brush category in the level editor
