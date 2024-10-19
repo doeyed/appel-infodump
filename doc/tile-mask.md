@@ -55,7 +55,7 @@ character index  | unused | description
 #2               | no     | the type of the top-left quarter tile (solid, spikey, etc.)
 #3               | no     | the type of the top-right quarter tile (solid, spikey, etc.)
 #4               | no     | the type of the bottom-right quarter tile (solid, spikey, etc.)
-#5               | no     | the type (character #5 + character #6) of the entity to spawn in, if character #5 isn't a space (` `)
+#5               | no     | the type (character #5 + character #6) of the entity to spawn in, if character #6 isn't a space (` `)
 #6               | no     | the tile's visiblity. if character #6 is a space (` `), it'll be visible. otherwise, it'll be invisible
 #7               | yes    | currently unknown, as no tile masks make use of it
 #8               | no     | the tile's brush category for the level editor
