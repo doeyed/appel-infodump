@@ -1,0 +1,196 @@
+StatsLives a
+StatsLives a4
+StatsLives a5
+StatsLives a0
+StatsLives a6
+StatsLives a4
+StatsLives a1
+StatsLives a0
+StatsLives a 
+StatsLives game-base
+font h
+menu Text 1
+Float Apple: blank
+Float Apple: blank
+Float Apple: blank
+Float Apple: blank
+Float Apple: blank
+Float Apple: blank
+Float Apple: blank
+Float Apple: blank
+Float Apple: blank
+Float Apple: blank
+Float Apple: blank
+Boss1 spider4
+Float Apple: blank
+Mob - Eye: blank
+Mob - Eye: Big Eye
+Mob - Eye: Big Eye
+Mob - Eye: Big Eye
+Collect key1
+Collect mega apple
+Wipe Level 9
+Stencil Stand
+Active costume1
+Foreground blank
+Foreground blank
+Foreground blank
+Foreground blank
+Foreground blank
+Foreground green-1100
+Foreground green-1100
+Foreground green-1100
+Foreground green-1111b
+Foreground blank
+Foreground blank
+Foreground blank
+Foreground costume1
+Foreground costume6
+Foreground costume6
+Foreground costume6
+Foreground costume6
+Foreground green-0101
+Foreground blank
+Foreground blank
+Foreground Apple
+Foreground green-0101
+Foreground spike-0909
+Foreground green-4
+Foreground green-4
+Foreground green-1111
+Foreground green-0101
+Foreground blank
+Foreground blank
+Foreground blank
+Foreground green-4
+Foreground green-4
+Foreground costume1
+Foreground costume1
+Foreground green-0101
+Foreground blank
+Foreground blank
+Foreground blank
+Foreground blank
+Foreground green-4
+Foreground green-1111b
+Foreground saw3
+Foreground costume1
+Foreground costume1
+Foreground blank
+Foreground blank
+Foreground blank
+Foreground blank
+Foreground spike-0099
+Foreground green-0101
+Foreground costume1
+Foreground costume1
+Foreground green-0101
+Foreground blank
+Foreground blank
+Foreground blank
+Foreground blank
+Foreground blank
+Foreground blank
+Foreground saw3
+Foreground costume1
+Foreground costume1
+Foreground blank
+Player Stand
+Particles Apple
+Dynamic green-1100
+Dynamic stomp-02
+Dynamic stomp-01
+Dynamic stomp-01
+Dynamic stomp-02
+Dynamic stomp-01
+Dynamic stomp-01
+Dynamic green-1100
+Dynamic stomp-01
+Mob blank
+Mob blank
+Mob blank
+Mob blank
+Mob blank
+Mob blank
+Mob blank
+Background green-2
+Background blank
+Background blank
+Background blank
+Background blank
+Background blank
+Background green-1100
+Background green-1100
+Background green-1100
+Background green-1111b
+Background blank
+Background blank
+Background blank
+Background costume1
+Background green-8
+Background green-8
+Background green-8
+Background green-8
+Background .spike2
+Background blank
+Background blank
+Background Apple
+Background .spike2
+Background Spikes2
+Background green-4
+Background green-4
+Background green-2
+Background .spike2
+Background blank
+Background blank
+Background blank
+Background green-4
+Background green-4
+Background costume1
+Background costume1
+Background .spike2
+Background blank
+Background blank
+Background blank
+Background blank
+Background green-4
+Background green-1111b
+Background saw3
+Background costume1
+Background costume1
+Background blank
+Background blank
+Background blank
+Background blank
+Background Spikes3
+Background .spike2
+Background costume1
+Background costume1
+Background .spike2
+Background blank
+Background blank
+Background blank
+Background blank
+Background blank
+Background blank
+Background saw3
+Background costume1
+Background costume1
+Decoration Title
+Background blank
+cloud scores costume1
+Blank costume1
+Foreground green-1111
+Editor tile2
+Mob saw-22
+Levels costume1
+Wallpaper Tiles: Sky-01 copy 4
+Wallpaper Tiles: Sky-01 copy
+Wallpaper Tiles: Sky-01 copy 4
+Wallpaper Tiles: Sky-01 copy 3
+Wallpaper Tiles: Sky-01 copy 4
+Wallpaper Tiles: Sky-01 copy 4
+Wallpaper Tiles: Sky-01 copy 3
+Wallpaper Tiles: Sky-01 copy 4
+Wallpaper Tiles: Sky-01 copy 2
+wallpaper wallpaper-2
