@@ -1,4 +1,4 @@
-# levels & replays
+# codes
 user       | type   | game version | note                                                              | code
 ---------- | ------ | ------------ | ----------------------------------------------------------------- | ----
 griffpatch | level  | v1.0         | https://scratch.mit.edu/discuss/topic/469020/?page=1#post-4710406 | `1234750196Z2Z394Z17Z2Z2Z193Z1Z3Z2Z1Z18Z1Z9Z2Z2Z2Z9Z2Z2Z2Z1Z182Z2Z1Z5Z1Z1Z2Z18Z1Z2Z1Z1Z2Z2Z2Z1Z2Z2Z2Z1Z182Z2Z1Z1Z3Z15Z1Z25Z1Z1Z1Z12Z1Z11Z1Z1Z1Z12Z1Z1Z2Z63Z1Z1Z182Z76Z1Z1Z37239ZZ1Z38416ZZZZ0Z0`
