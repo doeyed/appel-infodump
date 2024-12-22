@@ -1,6 +1,6 @@
 <!--
     created: June 17th, 2024
-    updated: June 17th, 2024
+    updated: December 22nd, 2024
 -->
 
 # glossary
@@ -8,7 +8,9 @@
 ## gameplay
 
 ### entity
-an entity is simply just anything that's fully capable of "thought" and/or action, so anything that's alive really. this includes the player, mobs, collectables, lifts (moving platforms), etc.
+*see also: [entity.md](./entity.md)*
+
+a game object that exists separately from the rest of a level, usually with the ability to think and interact with other entities.
 
 ## technical
 
