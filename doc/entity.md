@@ -12,8 +12,8 @@ most entities have a "root position" they'll return to after a player death occu
 
 despite there already being a global "TICK" counter, mobs prefer to have their own local frame counter, which comes in handy for animation and whatnot. a notable example of this are the eye ground tiles blinking every 200 frames[^1], to then reset the frame counter afterwards.
 
-# list of entities (with IDs)
-ID           | unused | name                        | type        | sprite name | [solid threshold](./glossary.md#solid-threshold)
+# list of entities
+type         | unused | name                        | category    | sprite name | [solid threshold](./glossary.md#solid-threshold)
 ------------ | ------ | --------------------------- | ----------- | ----------- | ------------------------------------------------
 \-           | no     | Appel                       | Player      | Player      | 4
 2            | no     | Mob A1                      | Enemy       | Mob         | 4
