@@ -39,6 +39,7 @@ if a text character in this table is listed as "compatible" with a specific kind
 character | unused | player compatible | mob compatible | entity compatible (excluding mobs) | description
 --------- | ------ | ----------------- | -------------- | ---------------------------------------------------------- | -----------
 ` `       | no     | yes               | yes            | yes                                                        | blank character, but can serve more than one purpose, like marking quarter tiles as non-solid
+`1`       | no     | no                | yes            | yes                                                        | mark a quarter tile as solid ground, but not for the player
 `n > 4`   | no     | yes               | mostly[^1]     | mostly[^1]                                                 | mark a quarter tile as solid ground
 `*`       | yes    | -                 | -              | -                                                          | mostly speculation, but this might've functioned similarly to the sixth character in this table, but for objects like yellow/red apples. currently acts like a blank character
 `.`       | no     | yes               | no             | no                                                         | if the tile is a spike, mark a quarter tile as spikey[^2], and if touched by the player, kill the player
