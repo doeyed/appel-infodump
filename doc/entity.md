@@ -1,6 +1,6 @@
 <!--
     created: June 19th, 2024
-    updated: December 22nd, 2024
+    updated: December 23rd, 2024
 -->
 
 # entity
@@ -16,7 +16,7 @@ despite there already being a global "TICK" counter, mobs prefer to have their o
 type         | unused | name                        | category    | sprite name | [solid threshold](./glossary.md#solid-threshold)
 ------------ | ------ | --------------------------- | ----------- | ----------- | ------------------------------------------------
 \-           | no     | Appel                       | Player      | Player      | 4
-2            | no     | Mob A1                      | Enemy       | Mob         | 4
+2            | no     | Mob A1                      | Enemy       | Mob         | 4 / 0
 3            | no     | Big Eye                     | Enemy       | Mob - Eye   | -
 "blink"      | no     | Big Eyelid                  | Enemy       | Mob - Eye   | -
 4            | no     | Sawblade                    | Enemy       | Mob         | 0
@@ -24,12 +24,12 @@ type         | unused | name                        | category    | sprite name 
 6            | no     | Bird                        | Enemy       | Mob         | -
 7            | no     | Bird Bomb / Egg Bomb        | Enemy       | Mob         | 4
 8            | no     | Eye Launcher                | Enemy       | Mob         | -
-9            | no     | Pip                         | Enemy       | Mob         | 4
+9            | no     | Pip                         | Enemy       | Mob         | 4 / 0
 10           | no     | Worm (CW)                   | Enemy       | Mob         | 4
 11           | no     | Worm (CCW)                  | Enemy       | Mob         | 4
 12           | no     | Apple (Yellow)              | Collectable | Float Apple | -
 12.5         | no     | Apple (Yellow) (Hidden)     | Collectable | Float Apple | -
-13           | no     | Purple Mob                  | Enemy       | Mob         | 4
+13           | no     | Purple Mob                  | Enemy       | Mob         | 4 / 0
 80           | no     | Lift (Horizontal)           | Dynamic     | Dynamic     | 0
 81           | no     | Lift (Vertical)             | Dynamic     | Dynamic     | 0
 82           | no     | Masher / Crusher            | Dynamic     | Dynamic     | 0
