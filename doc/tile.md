@@ -4,7 +4,7 @@
 -->
 
 # list of tiles
-type | brush category # | name                                                  | mask        | mask visual                           |
+type | brush category # | name                                                  | mask        | [mask visual](./glossary#mask-visual) |
 ---- | ---------------- | ----------------------------------------------------- | ----------- | ------------------------------------- |
 1    | -                | Air                                                   | `        `  | ![tile #1](../res/tile-masks/1.png)   |
 2    | 1                | Full Ground Tile                                      | `5555   1h` | ![tile #2](../res/tile-masks/2.png)   |

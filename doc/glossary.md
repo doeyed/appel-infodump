@@ -24,3 +24,8 @@ the "solid check" is a simple check that occurs whenever an [entity](#entity) wa
 the "solid threshold" is a value given to tiles and [entities](#entity) that the [solid check](#solid-check) mainly relies on.
 
 if a tile's solid threshold is greater than the entity's solid threshold, the solid check will pass. otherwise, it'll fail.
+
+### mask visual
+*see also: [tile-mask.md](./tile-mask.md)*
+
+a mask visual is a visual representation of information contained in a tile mask
