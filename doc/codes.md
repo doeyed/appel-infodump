@@ -1,6 +1,5 @@
 <!--
     created: October 19th, 2024
-    updated: October 19th, 2024
 -->
 
 # codes

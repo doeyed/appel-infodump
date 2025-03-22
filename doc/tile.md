@@ -1,6 +1,5 @@
 <!--
     created: June 20th, 2024
-    updated: December 22nd, 2024
 -->
 
 # list of tiles

@@ -1,6 +1,5 @@
 <!--
     created: June 17th, 2024
-    updated: June 18th, 2024
 -->
 
 # tile mask

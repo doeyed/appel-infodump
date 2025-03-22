@@ -1,6 +1,5 @@
 <!--
     created: December 24th, 2024
-    updated: December 24th, 2024
 -->
 
 # level

@@ -1,6 +1,5 @@
 <!--
 	created: June 23th, 2024
-	updated: December 22nd, 2024
 -->
 
 # particles
