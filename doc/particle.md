@@ -3,7 +3,7 @@
 -->
 
 # particles
-a **particle** is simply a graphical effect used for extra visual flair. particles can also collide with the level and similarly to the player, have a [solid threshold](./glossary.md#solid-threshold) of three. but, like mobs, they also prefer to have their own individual frame counter.
+a **particle** is a graphical effect used for extra visual flair. particles can also collide with the level and have a [solidity](./glossary.md#solidity) of three (3). but, like mobs, they also prefer to have their own individual frame counter.
 
 # list of particles
 type          | optional

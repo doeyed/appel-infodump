@@ -23,13 +23,13 @@ this specific tile (with an ID of 2) in the game has the mask "`5555   1h`," so 
 - it'll have its hue tinted to match the level's hue
     - the ninth and last character in the mask being the letter H makes this true
 
-this is all possible to know simply by itering through each character in the mask one-by-one, from the start of the mask, to end of it, and taking notes along the way.
+this is all possible to know by itering through each character in the mask, from left to right, and taking notes along the way.
 
-while itering through the mask, make sure to also keep track of where and what that character is, as you'll need to refer to the [tables](#tables) below.
+while itering through the mask, make sure to also keep track of where and what that character is, according to the tables below.
 
 # tables
 ## characters
-this table may look a little confusing at first, but it just lists out text characters you'd find in a tile mask, what their purpose is, as described by its description, and whenever or not they're "compatible" with certain kinds of entities.
+this table lists out text characters you'd find in a tile mask, what their purpose is, and whenever or not they're "compatible" with certain kinds of entities.
 
 if a text character in this table is listed as "compatible" with a specific kind of entity (like the player), then it'd have an effect on those kinds of entities, under the right circumstances.
 
@@ -39,15 +39,15 @@ character | unused | player compatible | mob compatible | entity compatible (exc
 --------- | ------ | ----------------- | -------------- | ---------------------------------------------------------- | -----------
 ` `       | no     | yes               | yes            | yes                                                        | blank character, but can serve more than one purpose, like marking quarter tiles as non-solid
 `1`       | no     | no                | yes            | yes                                                        | mark a quarter tile as solid ground, but not for the player
-`n > 4`   | no     | yes               | mostly[^1]     | mostly[^1]                                                 | mark a quarter tile as solid ground
+`n > 4`   | no     | yes               | yes            | yes                                                        | mark a quarter tile as solid ground
 `*`       | yes    | -                 | -              | -                                                          | mostly speculation, but this might've functioned similarly to the sixth character in this table, but for objects like yellow/red apples. currently acts like a blank character
-`.`       | no     | yes               | no             | no                                                         | if the tile is a spike, mark a quarter tile as spikey[^2], and if touched by the player, kill the player
+`.`       | no     | yes               | no             | no                                                         | if the tile is a spike, mark a quarter tile as spikey[^1], and if touched by the player, kill the player
 `7`       | no     | yes               | no             | no                                                         | if the tile is a conveyor belt, mark a quarter tile as part of the belt
-`6`       | no     | yes               | no             | no                                                         | mark a quarter tile as one that can "activate" the full tile[^3], upon player collision
+`6`       | no     | yes               | no             | no                                                         | mark a quarter tile as one that can "activate" the full tile[^2], upon player collision
 `h`       | no     | -                 | -              | -                                                          | presumably short for hue, see the description for character index #9 in the table below
 
 ## character indexes
-for the first four rows, it's safe to assume that most tiles will have these all set to a [solid threshold](./glossary.md#solid-threshold) of at least five, so most entities (including mobs & the player) are able to pass the [solid check](./glossary.md#solid-check) and collide with them.
+for the first four rows, it's safe to assume that most tiles will have these all set to a [solidity](./glossary.md#solidity) of at least five (5), so most entities (including mobs & the player) are able to pass the [solidity check](./glossary.md#solidity-check) and collide with them.
 
 character index  | unused | description
 ---------------- | ------ |-----------
@@ -62,8 +62,6 @@ character index  | unused | description
 #9               | no     | whenever or not to tint the hue of the full tile by the level's hue (hue #1, not hue #2). if you wanted this, you'd put the letter H in this spot
 
 ### footnotes
-[^1]: most entities will be capable with passing the solid check. however, if an entity has a solid threshold greater than `n`, it'll stopping treating the quarter tile as solid ground, and likely pass through it. we may pretend the player has a solid threshold of four, though the player doesn't really use a regular solid check.
+[^1]: fun fact: normally, the spikey quarter tiles of a full spike tile aren't actually solid, but mobs (and other entities) can choose to ignore this, and treat it as regular solid ground.
 
-[^2]: fun fact: normally, the spikey quarter tiles of a full spike tile aren't actually solid, but mobs (and other entities) can choose to ignore this, and treat it as regular solid ground.
-
-[^3]: another fun fact: activation tiles don't make use of this, as their behavior is hardcoded into the "Player" sprite. something similar is also in place for collectibles (although those are actually entities unaffected by tile collision), checkpoints, flag poles, etc.
+[^2]: another fun fact: activation tiles (tile ID #71) don't make use of this, as their behavior is hardcoded into the "Player" sprite. something similar is also in place for collectibles (which ignore tile collisions), checkpoints, flag poles, etc.
