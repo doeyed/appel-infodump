@@ -7,7 +7,7 @@ an **entity** is a game object that exists separately from the rest of a level, 
 
 when a level starts, every entity in the level will be spawned in. once an entity spawns in, it won't start ticking until after both the player and the camera are in the same area as the entity. if an entity has a trigger group assigned to it, it'll begin ticking regardless.
 
-most entities have a "root position" they'll return to after a player death occurs.[^2] a mob's root position is usually the same as its spawner tile's position, and doesn't typically change during gameplay.
+most entities have a root position they'll return to after a player death occurs.[^2] a mob's root position is usually the same as its spawner tile's position, and doesn't typically change during gameplay.
 
 despite there already being a global "TICK" counter, mobs prefer to have their own local frame counter, which comes in handy for animation and whatnot. a notable example of this are the eye ground tiles blinking every 200 frames[^1].
 
